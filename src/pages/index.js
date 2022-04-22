@@ -9,7 +9,7 @@ import {
   SiReact,
   SiVuedotjs,
   SiGatsby,
-  SiMacos,
+  SiApple,
   SiVisualstudiocode,
 } from "react-icons/si"
 import Layout from "../components/layout"
@@ -17,7 +17,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Resume" />
     <div className="bg-sky-50 p-6 py-8 md:p-8 md:py-12 mt-12 font-light scale-[1.15] md:scale-100 text-slate-600 md:tracking-wide">
       <p className="leading-snug border-l-2 md:border-l-4  border-sky-200 pl-4 md:text-2xl">
         Web Developer with 12 years of extensive experience in designing,
@@ -32,39 +32,39 @@ const IndexPage = () => (
     <h3 className="mt-8 mb-4 text-lg">Skills & Tools</h3>
     <ul className="grid grid-cols-6 gap-3 text-sm md:text-base text-sky-700 font-light flex-wrap">
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiHtml5 className="mr-1" />
+        <SiHtml5 className="mr-2" />
         html5
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiCss3 className="mr-1" />
+        <SiCss3 className="mr-2" />
         css3
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiJavascript className="mr-1" />
+        <SiJavascript className="mr-2" />
         javascript
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiTailwindcss className="mr-1" />
+        <SiTailwindcss className="mr-2" />
         tailwind
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiReact className="mr-1" />
+        <SiReact className="mr-2" />
         react
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiVuedotjs className="mr-1" />
+        <SiVuedotjs className="mr-2" />
         vue
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiGatsby className="mr-1" />
+        <SiGatsby className="mr-2" />
         gatsby
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiMacos className="mr-1" />
+        <SiApple className="mr-2" />
         Mac OS
       </li>
       <li className="col-span-2 md:col-span-1 flex items-center border border-sky-200 px-3 py-2 rounded">
-        <SiVisualstudiocode className="mr-1" />
+        <SiVisualstudiocode className="mr-2" />
         VS Code
       </li>
     </ul>
