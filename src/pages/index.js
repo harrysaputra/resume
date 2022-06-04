@@ -20,13 +20,17 @@ const IndexPage = () => (
     <Seo title="Resume" />
     <div className="bg-sky-50 p-6 py-8 md:p-8 md:py-12 mt-12 font-light scale-[1.15] md:scale-100 text-slate-600 md:tracking-wide">
       <p className="leading-snug border-l-2 md:border-l-4  border-sky-200 pl-4 md:text-2xl">
-        Web Developer with 12 years of extensive experience in designing,
-        building and managing user interfaces, including responsive web design.
+        Frontend Web Developer with 12+ years of extensive experience in
+        designing, building and managing user interfaces, including responsive
+        web design and JAMStack.
       </p>
-      <p className="text-xs md:text-base mt-4 text-slate-500 leading-relaxed md:max-w-lg">
-        Applying for the position of Frontend Developer and UIUX Designer to
-        architect and develop interactive web applications.
-      </p>
+      <ul className="text-xs md:text-base mt-4 text-slate-500 leading-relaxed list-disc list-inside">
+        <li>Tech-stack: HTML5, CSS3, JavaScript, TailwindCSS, ReactJs, GatsbyJs.</li>
+        <li>Strong Experience with Cross Browser Compatibility Issues and Optimization for Various Devices.</li>
+        <li>Experts in responsive Web Design and analyzing and fixing UI bugs quickly.</li>
+        <li>Proficiency in code optimization to improving the performance.</li>
+        <li>Rapid Prototyping using Frontend Web Framework.</li>
+      </ul>
     </div>
 
     <h3 className="mt-8 mb-4 text-lg">Skills & Tools</h3>
